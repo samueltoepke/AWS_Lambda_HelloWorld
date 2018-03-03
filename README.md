@@ -5,14 +5,14 @@ The file can be uploaded and run in Lambda using CloudWatch to affect a schedule
   
 Java and Ant need installed/configured/set-up properly.   
 
-<h3>SOFTWARE:</h3>
-* Java SDK 1.8.0_79,  http://www.oracle.com/technetwork/java/javase/overview/index.html
-* Apache Ant 1.9.6,   https://ant.apache.org/
-* AWS Lambda Java API https://github.com/aws/aws-lambda-java-libs/tree/master/aws-lambda-java-core
+## SOFTWARE:
+ * [Java SDK 1.8.0_79](http://www.oracle.com/technetwork/java/javase/overview/index.html)
+ * [Apache Ant 1.9.6](https://ant.apache.org/)
+ * [AWS Lambda Java API](https://github.com/aws/aws-lambda-java-libs/tree/master/aws-lambda-java-core)
 
-<h3>EXECUTION:</h3>
-* All possible targets are in the ./build.xml file.
-* "$ ant" # Fully build the code.
+## EXECUTION:
+ * All possible targets are in the ./build.xml file.
+ * "$ ant" # Fully build the code.
 
 Full instructions can be found here: [http://www.samueltoepke.com/amazon-aws-java-and-lambda/](http://www.samueltoepke.com/amazon-aws-java-and-lambda/) 
 
